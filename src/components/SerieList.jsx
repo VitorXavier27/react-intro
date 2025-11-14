@@ -22,13 +22,10 @@ export default function SerieList({series}) {
     <>
     <div>
       <div>
-        <h2>Teste</h2>
-
+        <i><p style={{textAlign:"center"}}>Nome da Serie: {serie.nome}</p></i>
+        <p>Numero de Temporadas: {serie.num_temporadas}</p>
+        <p>Numero de Episodios: {serie.num_episodios}</p>
       </div>
-      {/* <button onClick={() => setOpenModal(true)}>Teste</button>
-      <Modal isOpen={openModal} setModalOpen={() => setOpenModal(!openModal)}>
-        {serie.id}
-      </Modal> */}
     </div>
     </>
   )
