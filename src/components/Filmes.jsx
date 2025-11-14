@@ -15,9 +15,9 @@ export const Filmes = () => {
     <>
       <h3>Filmes</h3>
 
-      <div>
+      <div >
         {categories.map((value) => (
-          <button onClick={() => setCategory(value)}>{value}</button>
+          <button key={value} onClick={() => setCategory(value)}>{value}</button>
         ))}
       </div>
 
